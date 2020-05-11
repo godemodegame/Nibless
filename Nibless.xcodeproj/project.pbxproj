@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C1007261243CA5E2004CB175 /* Nibless.h in Headers */ = {isa = PBXBuildFile; fileRef = C100725F243CA5E2004CB175 /* Nibless.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11BE5562469613E008C8640 /* NLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BE5552469613E008C8640 /* NLImageView.swift */; };
 		C1261DE5243CA939009B9211 /* NLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1261DE1243CA939009B9211 /* NLView.swift */; };
 		C1261DE6243CA939009B9211 /* NLBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1261DE2243CA939009B9211 /* NLBarButtonItem.swift */; };
 		C1261DE7243CA939009B9211 /* NLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1261DE3243CA939009B9211 /* NLButton.swift */; };
@@ -20,6 +21,7 @@
 		C100725C243CA5E2004CB175 /* Nibless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nibless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C100725F243CA5E2004CB175 /* Nibless.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nibless.h; sourceTree = "<group>"; };
 		C1007260243CA5E2004CB175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11BE5552469613E008C8640 /* NLImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLImageView.swift; sourceTree = "<group>"; };
 		C1261DE1243CA939009B9211 /* NLView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLView.swift; sourceTree = "<group>"; };
 		C1261DE2243CA939009B9211 /* NLBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLBarButtonItem.swift; sourceTree = "<group>"; };
 		C1261DE3243CA939009B9211 /* NLButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLButton.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				C1261DE9243CA941009B9211 /* NLTableView.swift */,
 				C1261DEA243CA941009B9211 /* NLTableViewCell.swift */,
 				C1007260243CA5E2004CB175 /* Info.plist */,
+				C11BE5552469613E008C8640 /* NLImageView.swift */,
 			);
 			path = Nibless;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				C1261DE7243CA939009B9211 /* NLButton.swift in Sources */,
 				C1261DE6243CA939009B9211 /* NLBarButtonItem.swift in Sources */,
+				C11BE5562469613E008C8640 /* NLImageView.swift in Sources */,
 				C1261DEB243CA941009B9211 /* NLTableView.swift in Sources */,
 				C1261DEC243CA941009B9211 /* NLTableViewCell.swift in Sources */,
 				C1261DE8243CA939009B9211 /* NLCollectionViewCell.swift in Sources */,
