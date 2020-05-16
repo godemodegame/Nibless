@@ -15,6 +15,7 @@
 		C1261DE8243CA939009B9211 /* NLCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1261DE4243CA939009B9211 /* NLCollectionViewCell.swift */; };
 		C1261DEB243CA941009B9211 /* NLTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1261DE9243CA941009B9211 /* NLTableView.swift */; };
 		C1261DEC243CA941009B9211 /* NLTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1261DEA243CA941009B9211 /* NLTableViewCell.swift */; };
+		C1BAB83E2470255900699577 /* NLCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BAB83D2470255900699577 /* NLCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C1261DE9243CA941009B9211 /* NLTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLTableView.swift; sourceTree = "<group>"; };
 		C1261DEA243CA941009B9211 /* NLTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NLTableViewCell.swift; sourceTree = "<group>"; };
 		C16E1F6A243CABA200BEFBCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1BAB83D2470255900699577 /* NLCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				C1261DEA243CA941009B9211 /* NLTableViewCell.swift */,
 				C1007260243CA5E2004CB175 /* Info.plist */,
 				C11BE5552469613E008C8640 /* NLImageView.swift */,
+				C1BAB83D2470255900699577 /* NLCollectionView.swift */,
 			);
 			path = Nibless;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				C1261DE7243CA939009B9211 /* NLButton.swift in Sources */,
 				C1261DE6243CA939009B9211 /* NLBarButtonItem.swift in Sources */,
+				C1BAB83E2470255900699577 /* NLCollectionView.swift in Sources */,
 				C11BE5562469613E008C8640 /* NLImageView.swift in Sources */,
 				C1261DEB243CA941009B9211 /* NLTableView.swift in Sources */,
 				C1261DEC243CA941009B9211 /* NLTableViewCell.swift in Sources */,
