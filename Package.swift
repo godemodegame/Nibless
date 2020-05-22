@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "Nibless",
             targets: ["Nibless"]),
+        .platforms: [
+            .iOS(.v8)
+        ]
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.

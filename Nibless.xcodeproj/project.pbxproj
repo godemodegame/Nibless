@@ -60,8 +60,8 @@
 		C11C19E82477F3E800D30550 /* NLBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLBarButtonItem.swift; sourceTree = "<group>"; };
 		C11C19E92477F3E800D30550 /* NLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLButton.swift; sourceTree = "<group>"; };
 		C11C19EA2477F3E900D30550 /* NLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLView.swift; sourceTree = "<group>"; };
-		"Nibless::Nibless::Product" /* Nibless.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nibless.framework; path = /Users/godemodegame/swift/Frameworks/Nibless/build/Debug/Nibless.framework; sourceTree = "<absolute>"; };
-		"Nibless::NiblessTests::Product" /* NiblessTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = NiblessTests.xctest; path = /Users/godemodegame/swift/Frameworks/Nibless/build/Debug/NiblessTests.xctest; sourceTree = "<absolute>"; };
+		C1210C652477F4FF00EEE793 /* Nibless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nibless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1210C662477F4FF00EEE793 /* NiblessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NiblessTests.xctest; path = /Users/godemodegame/swift/Frameworks/Nibless/build/Debug/NiblessTests.xctest; sourceTree = "<absolute>"; };
 		OBJ_12 /* NiblessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -104,15 +104,15 @@
 			path = Tests/NiblessTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_18 /* README.md */,
+				C1210C652477F4FF00EEE793 /* Nibless.framework */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -155,7 +155,7 @@
 			);
 			name = Nibless;
 			productName = Nibless;
-			productReference = "Nibless::Nibless::Product" /* Nibless.framework */;
+			productReference = C1210C652477F4FF00EEE793 /* Nibless.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		"Nibless::NiblessTests" /* NiblessTests */ = {
@@ -172,7 +172,7 @@
 			);
 			name = NiblessTests;
 			productName = NiblessTests;
-			productReference = "Nibless::NiblessTests::Product" /* NiblessTests.xctest */;
+			productReference = C1210C662477F4FF00EEE793 /* NiblessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		"Nibless::SwiftPMPackageDescription" /* NiblessPackageDescription */ = {
@@ -205,8 +205,8 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
