@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit.UIView
 
 open class NLView: UIView {
@@ -10,3 +11,4 @@ open class NLView: UIView {
         fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
     }
 }
+#endif

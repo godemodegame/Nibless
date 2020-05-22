@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit.UIButton
 
 open class NLButton: UIButton {
@@ -10,3 +11,4 @@ open class NLButton: UIButton {
         fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
     }
 }
+#endif

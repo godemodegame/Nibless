@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit.UITableViewCell
 
 open class NLTableViewCell: UITableViewCell {
@@ -10,3 +11,4 @@ open class NLTableViewCell: UITableViewCell {
         fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
     }
 }
+#endif

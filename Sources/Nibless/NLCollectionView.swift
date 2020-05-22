@@ -1,3 +1,4 @@
+#if canImport(UIKit)
 import UIKit.UICollectionView
 
 open class NLCollectionView: UICollectionView {
@@ -10,3 +11,4 @@ open class NLCollectionView: UICollectionView {
         fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
     }
 }
+#endif

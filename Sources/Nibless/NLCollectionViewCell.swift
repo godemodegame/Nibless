@@ -1,4 +1,5 @@
-import UIKit
+#if canImport(UIKit)
+import UIKit.UICollectionViewCell
 
 open class NLCollectionViewCell: UICollectionViewCell {
     public override init(frame: CGRect) {
@@ -10,3 +11,4 @@ open class NLCollectionViewCell: UICollectionViewCell {
         fatalError("Loading this view from a nib is unsupported in favor of initializer dependency injection.")
     }
 }
+#endif
