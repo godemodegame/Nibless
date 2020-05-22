@@ -1,6 +1,6 @@
 #if canImport(UIKit)
 import UIKit.UIView
-
+ 
 open class NLView: UIView {
     public override init(frame: CGRect) {
         super.init(frame: frame)
